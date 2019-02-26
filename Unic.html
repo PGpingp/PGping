@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<title>PGping utility</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<meta name="description" content="유니코드 변환 사이트 입니다.">
+<meta name="keywords" content="PGping,마인크래프트,유틸리티,유니코드">
+<link rel="shortcut icon" type="image/x-icon" href="http://cfile4.uf.tistory.com/image/993DB833599965D8166364" />
+
+</head>
+<center>
+
+
+<p><span style="FONT-SIZE: 11pt">﻿</span>
+<script type="text/javascript">
+function trans(){
+	var str = document.getElementById("hangul").value;
+	
+	document.getElementById("unicode").value = replaceAll(escape(str),"%","\\);	
+}
+
+function detrans(){
+	var str = document.getElementById("unicode2").value;
+	
+	document.getElementById("hangul2").value = unescape(replaceAll(str,"\\","%"));	
+}
+function replaceAll(strTemp, strValue1, strValue2){
+	
+    while(1){
+        if( strTemp.indexOf(strValue1) != -1 )
+            strTemp = strTemp.replace(strValue1, strValue2);
+        else
+            break;
+    }
+    return strTemp;
+}
+</script>
+<span style="FONT-SIZE: 11pt"> 한글 -&gt; 유니코드 </span><input onkeydown="JavaScript:if(event.keyCode==13){trans();}" id="hangul" name="hangul"><span style="FONT-SIZE: 11pt"> </span><input onclick="trans()" name="aa" value="변환" type="button"><span style="FONT-SIZE: 11pt"></span>
+<br><span style="FONT-SIZE: 11pt">결과 :</span><input id="unicode" name="unicode" size="50"><span style="FONT-SIZE: 11pt"> </span><br>
+<br><span style="FONT-SIZE: 11pt">유니코드 -&gt; 한글 </span><input onkeydown="JavaScript:if(event.keyCode==13){detrans();}" id="unicode2" name="unicode2"><span style="FONT-SIZE: 11pt"> </span><input onclick="detrans()" name="aa" value="변환" type="button"><span style="FONT-SIZE: 11pt"> </span><br>
+<br><span style="FONT-SIZE: 11pt">결과 :</span><input id="hangul2" name="hangul2" size="50"></p>
+<span style="FONT-SIZE: 11pt">
+
+Made: PGping
+<br>
+
