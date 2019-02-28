@@ -1,0 +1,885 @@
+[ 2015-07-17T12:50:39+08:00 ] ::1 /shopingmallweb/Home/Shoppingcart/Shoppingcart?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043833s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0896s ]
+SQL: SELECT `activity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( user_id='1' and totalorder_id='0' )  [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0441s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0491s ]
+SQL: SELECT `prop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( user_id='1' and totalorder_id='0' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_prop` [ RunTime:0.0639s ]
+SQL: SELECT `prop_name`,`prop_poster` FROM `t_prop` WHERE ( 1=1 AND prop_id='1' ) LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040994s ]
+
+[ 2015-07-17T12:51:10+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012105s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0891s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model.class.php 第 722 行.
+
+[ 2015-07-17T12:51:46+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012849s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0076s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012415s ]
+
+[ 2015-07-17T12:51:47+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000349s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011512s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0067s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009209s ]
+
+[ 2015-07-17T12:53:27+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010372s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0115s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009338s ]
+
+[ 2015-07-17T12:54:38+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008265s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0089s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008848s ]
+
+[ 2015-07-17T12:54:39+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000403s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011843s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0068s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008274s ]
+
+[ 2015-07-17T12:54:40+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017787s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0065s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009627s ]
+
+[ 2015-07-17T12:54:40+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000355s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051724s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0063s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007364s ]
+
+[ 2015-07-17T12:54:40+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.065780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067194s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0441s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007940s ]
+
+[ 2015-07-17T12:54:41+08:00 ] ::1 /shopingmallweb/Home/myorder/myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007849s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0071s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008312s ]
+
+[ 2015-07-17T12:56:39+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&userid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014114s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0066s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='0' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010150s ]
+
+[ 2015-07-17T12:56:48+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018255s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0364s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0064s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0081s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007705s ]
+
+[ 2015-07-17T13:04:50+08:00 ] ::1 /shopingmallweb/Home/ShoppingcartController/ShoppingcartController?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020118s ]
+ERR: 无法加载控制器:ShoppingcartController
+
+[ 2015-07-17T13:04:58+08:00 ] ::1 /shopingmallweb/Home/Shoppingcart/Shoppingcart?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014580s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0085s ]
+SQL: SELECT `activity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( user_id='0' and totalorder_id='0' )  [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0076s ]
+SQL: SELECT `prop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( user_id='0' and totalorder_id='0' )  [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009853s ]
+
+[ 2015-07-17T13:05:36+08:00 ] ::1 /shopingmallweb/Home/Shoppingcart/Shoppingcart?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009013s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0067s ]
+SQL: SELECT `activity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( user_id='0' and totalorder_id='0' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0079s ]
+SQL: SELECT `prop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( user_id='0' and totalorder_id='0' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008276s ]
+
+[ 2015-07-17T13:06:01+08:00 ] ::1 /shopingmallweb/Home/Shoppingcart/Shoppingcart?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000319s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011881s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0075s ]
+SQL: SELECT `activity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( user_id='1' and totalorder_id='0' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0337s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0076s ]
+SQL: SELECT `prop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( user_id='1' and totalorder_id='0' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_prop` [ RunTime:0.0063s ]
+SQL: SELECT `prop_name`,`prop_poster` FROM `t_prop` WHERE ( 1=1 AND prop_id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007780s ]
+
+[ 2015-07-17T13:07:56+08:00 ] ::1 /shopingmallweb/Home/user/user?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000300s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009880s ]
+ERR: 非法操作:user
+
+[ 2015-07-17T13:08:18+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Personalsetting?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008619s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0645s ]
+SQL: SELECT `user_name`,`user_add`,`user_sex`,`user_sexori`,`user_emotion`,`user_blood`,`user_horoscope`,`user_email`,`user_qq`,`user_interest` FROM `t_user` WHERE ( user_id='0' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007177s ]
+
+[ 2015-07-17T13:08:40+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Personalsetting?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015265s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0142s ]
+SQL: SELECT `user_name`,`user_add`,`user_sex`,`user_sexori`,`user_emotion`,`user_blood`,`user_horoscope`,`user_email`,`user_qq`,`user_interest` FROM `t_user` WHERE ( user_id='1' )  [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009731s ]
+
+[ 2015-07-17T13:10:49+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010175s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0200s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0147s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0129s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014304s ]
+
+[ 2015-07-17T13:21:01+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020611s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0073s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0071s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0066s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008848s ]
+
+[ 2015-07-17T13:21:24+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007438s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0064s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0079s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0066s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008411s ]
+
+[ 2015-07-17T13:21:25+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000495s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011818s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0073s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0078s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0080s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007639s ]
+
+[ 2015-07-17T15:10:32+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017533s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0201s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0068s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0077s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008893s ]
+
+[ 2015-07-17T15:10:33+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009209s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0069s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0082s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0069s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008083s ]
+
+[ 2015-07-17T15:11:22+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015480s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0139s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0065s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0082s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008597s ]
+
+[ 2015-07-17T15:11:39+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012298s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0073s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0075s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0072s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008356s ]
+
+[ 2015-07-17T15:13:14+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030134s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0082s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0068s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0063s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008195s ]
+
+[ 2015-07-17T15:13:15+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014763s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0641s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0075s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0078s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012200s ]
+
+[ 2015-07-17T15:13:15+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013711s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0067s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0084s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0072s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008617s ]
+
+[ 2015-07-17T15:13:16+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008540s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0067s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0075s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0065s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009792s ]
+
+[ 2015-07-17T15:13:16+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011870s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0081s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0067s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0073s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008195s ]
+
+[ 2015-07-17T15:13:16+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007843s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0560s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0064s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0072s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007934s ]
+
+[ 2015-07-17T15:13:29+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018340s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0167s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0074s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0067s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008579s ]
+
+[ 2015-07-17T15:13:30+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000493s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013056s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0083s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0069s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0072s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009752s ]
+
+[ 2015-07-17T15:13:30+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008248s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0096s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0071s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0065s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007511s ]
+
+[ 2015-07-17T15:13:30+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012393s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0073s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0071s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0072s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007122s ]
+
+[ 2015-07-17T15:13:32+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011070s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0068s ]
+SQL: SELECT `totalorder_id`,`totalorder_time`,`totalorder_num`,`totalorder_deliver`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0071s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`buyactivity_total` FROM `t_buyactivity` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0067s ]
+NOTIC: [2] Illegal offset type E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 169 行.
+SQL: SELECT `buyprop_id`,`buyprop_num`,`buyprop_total` FROM `t_buyprop` WHERE ( 1=1 AND totalorder_id='' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009795s ]
+
+[ 2015-07-17T15:21:54+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012649s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021085s ]
+
+[ 2015-07-17T15:24:28+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022174s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013263s ]
+
+[ 2015-07-17T15:24:30+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035692s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009593s ]
+
+[ 2015-07-17T15:25:11+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015785s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009834s ]
+
+[ 2015-07-17T15:27:01+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011878s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0070s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009481s ]
+
+[ 2015-07-17T15:27:44+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008751s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0083s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007744s ]
+
+[ 2015-07-17T15:28:55+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016441s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0192s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0065s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008430s ]
+
+[ 2015-07-17T15:29:36+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012331s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0203s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0076s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008950s ]
+
+[ 2015-07-17T15:29:57+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015210s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0341s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0066s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0080s ]
+SQL: SELECT `buyprop_id`,`buyprop_num`,`totalorder_id` FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007990s ]
+
+[ 2015-07-17T15:30:52+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010520s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0085s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0085s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: activity_id E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: activity_id E:\PHPDEV\xampp\htdocs\shopingmallweb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0077s ]
+SQL: SELECT `buyprop_id`,`buyprop_num`,`totalorder_id` FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009561s ]
+
+[ 2015-07-17T15:31:17+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000587s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015731s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0071s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0070s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id`,`activity_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0066s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0083s ]
+SQL: SELECT `buyprop_id`,`buyprop_num`,`totalorder_id` FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008418s ]
+
+[ 2015-07-17T15:31:33+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012244s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0147s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0066s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id`,`activity_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0079s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0493s ]
+SQL: SELECT `buyprop_id`,`buyprop_num`,`totalorder_id` FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008596s ]
+
+[ 2015-07-17T15:31:56+08:00 ] ::1 /shopingmallweb/Home/Myorder/Myorder?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013938s ]
+SQL: SHOW COLUMNS FROM `t_totalorder` [ RunTime:0.0069s ]
+SQL: SELECT `totalorder_time`,`totalorder_num`,`totalorder_total`,`totalorder_postage` FROM `t_totalorder` WHERE ( user_id='1' )  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `t_buyactivity` [ RunTime:0.0066s ]
+SQL: SELECT `buyactivity_id`,`buyactivity_num`,`totalorder_id`,`activity_id` FROM `t_buyactivity` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_activity` [ RunTime:0.0076s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `activity_theme`,`activity_poster` FROM `t_activity` WHERE ( 1=1 AND activity_id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_buyprop` [ RunTime:0.0086s ]
+SQL: SELECT `buyprop_id`,`buyprop_num`,`totalorder_id`,`prop_id` FROM `t_buyprop` WHERE ( user_id='1' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_prop` [ RunTime:0.0111s ]
+SQL: SELECT `prop_name`,`prop_poster` FROM `t_prop` WHERE ( 1=1 AND prop_id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `prop_name`,`prop_poster` FROM `t_prop` WHERE ( 1=1 AND prop_id='1' ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008540s ]
+
+[ 2015-07-17T16:16:30+08:00 ] ::1 /shopingmallweb/Home/user/sendMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010700s ]
+ERR: 参数错误或者未定义:phone
+
+[ 2015-07-17T16:16:44+08:00 ] ::1 /shopingmallweb/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000430s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010608s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.3097s ]
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008373s ]
+

@@ -1,0 +1,80 @@
+
+    <ion-pane >
+      <ion-header-bar class="bar-balanced">
+         <button class="button icon-left ion-ios-arrow-back button-clear" ng-click="$ionicGoBack()"></button>
+        <h1 class="title" style="text-align:center">赛事活动</h1>
+
+        <button class="button button-outline button-clear" ng-click="">
+          <i class="ion-search" style="font-size:20px;margin-right:10px"></i>
+
+        </button>
+      </ion-header-bar>
+      
+      <ion-content class="has-header">
+        <!--<ion-scroll zooming="true" direction="y" style="width: 100%; height: 100%">-->
+        <div class="bottom_line" style="border-bottom-width:10px" ng-repeat="listTop in competitionTop">
+        		<a href="#/competition_content/{{listTop.id}}" style="color:#000000">
+	          <img width="100%"  ng-src="{{listTop.headImgPath}}">
+	          <div class="competition_shadow_location" style="top:195px">
+	            <div class="competition_shadow"></div>
+	            <img class="competition_shadow_content" src="icon/iconfont-qunzhu.png" width="25">
+	            <label class="competition_shadow_content competition_shadow_word">{{listTop.title}}</label>
+	            <img ng-src="icon/iconfont-golf-white.png" width="15" class="competition_shadow_content" style="margin-left:20px">
+	            <label style="font-size:12px;bottom:38px;color:white;position:relative">已报名：{{listTop.countUsers}}</label>
+	          </div>
+         	 </a>
+        </div>
+		<ion-list scroll="false" on-refresh="onRefresh()"
+		                    s-editing="isEditingItems"
+		                    animation="fade-out"
+		                    delete-icon="icon ion-minus-circled">
+		
+       	<div class="" ng-if="test"style="margin:10px;text-align: center;">
+       		<ion-spinner  class="spinner-energized" icon="spiral" ></ion-spinner>
+       	</div>
+       	<div style="text-align: center;">
+       		{{message}}
+       	</div>
+        <div ng-repeat="list in competitions" class="bottom_line">
+        		<a href="http://geesoon.cn/gaoyouhudong/www/index.html#/competition_content/{{list.id}}" style="color:#000000">
+          <table width="100%">
+            <tr>
+              <td style="width:60px"><img ng-src="icon/iconfont-fire.png" width="25"></td>
+              <td ><label style="font-weight:700;font-size:15px;margin-left:-25px;white-space: nowrap;">{{list.title}}</label></td>
+              <td width="110" style="padding-right:0"><div class="competition_triangle"></div>
+          <div class="competition_starting">{{list.usersLimitT}}</div></td>
+            </tr>
+          </table>
+
+          <table width="100%" class="competition_td" style="margin-top:5px;font-size:12px;color:grey;font-weight:600">
+            <tr>
+              <td rowspan="4" width="100">
+                <div style="width:80px;height:80px;background-color:#F4F4F4;border-radius:5px;margin:0px 10px 0px 10px">
+                  <img width="35" height="35" ng-src="icon/iconfont-gaoerfuqiushixin.png" style="margin:22px">
+                </div>
+              </td>
+              <td><img ng-src="icon/iconfont-time-gray.png" width="18"></td>
+              <td>{{list.startTime}}/{{list.deadline}}</td>
+              <td rowspan="4" width="30"><i class="ion-chevron-right" style="font-size:25px;color:lightgray"></i></td>
+            </tr>
+            <tr>
+              <td><img ng-src="icon/iconfont-cost-gray.png" width="18"></td>
+              <td>{{list.cost}}</td>
+            </tr>
+            <tr>
+              <td><img ng-src="icon/iconfont-address-gray.png" width="18"></td>
+              <td style="white-space: nowrap">{{list.city}}{{list.address}}</td>
+            </tr>
+            <tr>
+              <td><img ng-src="icon/iconfont-golf-gray.png" width="18"></td>
+              <td>上限{{list.usersLimit}}人（<label style="color:orange">已有{{list.countUsers}}人报名</label>）</td>
+            </tr>
+          </table>
+          </a>
+        </ion-item>
+        </div>
+        <!--</ion-scroll>-->
+        <ion-infinite-scroll icon="ion-loading-c" ng-if="moreDataCanBeLoaded"  on-infinite="loadMore()"  distance="10%"></ion-infinite-scroll>
+      </ion-content>
+    </ion-pane>
+ 

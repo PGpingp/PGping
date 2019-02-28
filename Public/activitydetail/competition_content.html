@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <ion-pane>
+      <ion-header-bar class="bar-balanced">
+        <button class="button icon-left ion-ios-arrow-back button-clear" ng-click="$ionicGoBack()"></button>
+        <h1 class="title" style="text-align:center;">赛事详情</h1>
+        <button class="button icon-right ion-share button-clear" ng-click="showAlert()"></button>
+      </ion-header-bar>
+
+      <ion-content class="has-header" style="font-weight:700" ng-repeat="competitionContent in competitionContent">
+       
+          <table width="100%" style="margin-top:10px;">
+            <tr>
+              <td width="50" style="padding-left:20px"><img src="{{competitionContent.adminusers.headImg}}" width="50" height="50" class="photo_round"></td>
+              <td>{{competitionContent.adminusers.name}}<label style="color:grey">发布</label></td>
+              <td width="110" style="padding-right:0">
+                <div class="competition_triangle"></div>
+                <div class="competition_starting">
+                  {{competitionContent.usersLimitT}}
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" style="padding:0">
+                <div style="width:100%;height:250px;overflow: hidden;"><img ng-src="http://geesoon.cn/gq/admin/{{competitionContent.headImgPath}}" width="100%">
+                <div class="competition_shadow_location">
+                  <div class="competition_shadow"></div>
+                  <label class="competition_shadow_word">{{competitionContent.title}}</label>
+                </div>
+              </td>
+            </tr>
+            </table>
+            <table width="100%" style="border-bottom-width:10px" class="bottom_line">
+            <tr>
+              <td align="center"><img src="icon/iconfont-time-gray.png" width="20"></td>
+              <td colspan="2">{{competitionContent.startTime}}/{{competitionContent.deadline}}</td>
+            </tr>
+            <tr>
+              <td align="center"><img src="icon/iconfont-address-gray.png" width="20"></td>
+              <td colspan="2">{{competitionContent.provice}}{{competitionContent.city}}{{competitionContent.address}}</td>
+            </tr>
+            <tr>
+              <td align="center"><img src="icon/iconfont-cost-gray.png" width="20"></td>
+              <td colspan="2">{{competitionContent.cost}}</td>
+            </tr>
+            <tr>
+              <td align="center"><img src="icon/iconfont-people_number-gray.png" width="20"></td>
+              <td colspan="2">{{competitionContent.countUsers}}<label style="color:orange;float:right;">已有{{competitionContent.countUsers}}人报名</label></td>
+            </tr>
+          </table>
+          <div style="width:100%;border-bottom-width:5px" class="bottom_line">
+            <div style="width:94%;margin-left:3%;padding-top:20px">
+            <p style="color:dodgerblue">【活动详情】</p>
+            <p style="text-indent:2em;" id="competitionContent">{{competitionContent.content}}</p>
+            </div>
+          </div>
+          <div class="bottom_line" style="border-bottom-width:5px;padding-bottom:60px;  padding-bottom: 20px;
+  height: auto;
+  overflow: hidden;">
+            <p style="padding:10px 0 0 20px;">已报名</p>
+            <div style="float:left;margin-left:10px" ng-repeat="ayOrder in competitionContent.activityorder">
+              <img src="{{ayOrder.headImg}}" width="45" class="photo_round">
+              <span>{{ayOrder.name}}</span>
+            </div>
+            <div style="float:right;margin-right:20px; margin-top: 10px;">
+            		<button id="button-order" class="button button-balanced button-small" style="width:60px" ng-click="addOrder($event)" activityId="{{competitionContent.id}}"  isClick="false">报名</button>
+            	</div>
+          </div>
+          <div style="clear:both;">
+            <p style="padding:10px 20px 0 20px;"><span>评论</span><span style="float:right" ng-click="showAlert()">分享</span></p>
+            <table class="bottom_line" width="100%" ng-repeat="competitionContentComment in comment ">
+              <tr>
+                <td align="center" rowspan="3" style="vertical-align:top;padding:5px 0 0 0;"><img src="{{competitionContentComment.users.headImg}}" width="45" height="45" class="photo_round"></td>
+                <td style="padding-left:0">{{competitionContentComment.users.name}}</td>                
+              </tr>
+              <tr>
+                <td style="padding:0;color:darkgrey">{{competitionContentComment.createTime}}</td>
+              </tr>
+              <tr>
+                <td style="padding-left:0">{{competitionContentComment.content}}</td>
+              </tr>
+            </table>
+          </div>
+       
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

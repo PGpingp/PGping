@@ -1,0 +1,168 @@
+[ 2015-07-18T21:03:53+08:00 ] ::1 /shopingmallweb/Home/user/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.067510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070984s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.056249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060009s ]
+
+[ 2015-07-18T21:04:20+08:00 ] ::1 /shopingmallweb/Home/user/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000650s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056579s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012429s ]
+
+[ 2015-07-18T21:06:47+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Personalsetting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000338s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016189s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0163s ]
+SQL: SELECT `user_name`,`user_add`,`user_sex`,`user_sexori`,`user_emotion`,`user_blood`,`user_horoscope`,`user_email`,`user_qq`,`user_interest` FROM `t_user` WHERE ( user_id='0' )  [ RunTime:0.0179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011699s ]
+
+[ 2015-07-18T22:04:53+08:00 ] ::1 //shopingmallweb/Home/Realinformation%20/Realinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026109s ]
+ERR: 无法加载控制器:Realinformation
+
+[ 2015-07-18T22:04:55+08:00 ] ::1 /shopingmallweb/Home/Realinformation%20/Realinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000381s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016108s ]
+ERR: 无法加载控制器:Realinformation
+
+[ 2015-07-18T22:04:59+08:00 ] ::1 /shopingmallweb/Home/Realinformation/Realinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006782s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014817s ]
+ERR: 无法加载控制器:Realinformation
+
+[ 2015-07-18T22:05:13+08:00 ] ::1 /shopingmallweb/Home/Realinformation/Realinformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015901s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0106s ]
+SQL: SELECT `user_realname`,`user_sex`,`user_idnumber`,`user_add`,`user_tel`,`user_emcontact1`,`user_emtel1`,`user_emcontact2`,`user_emtel2`,`user_medical` FROM `t_user` WHERE ( user_id='0' )  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047079s ]
+
+[ 2015-07-18T22:05:28+08:00 ] ::1 /shopingmallweb/Home/Realinformation/Realinformation?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012532s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0107s ]
+SQL: SELECT `user_realname`,`user_sex`,`user_idnumber`,`user_add`,`user_tel`,`user_emcontact1`,`user_emtel1`,`user_emcontact2`,`user_emtel2`,`user_medical` FROM `t_user` WHERE ( user_id='1' )  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010013s ]
+
+[ 2015-07-18T22:30:29+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Pwdsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023666s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0132s ]
+SQL: SELECT `user_pwd` FROM `t_user` WHERE ( user_id='0' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `t_user` SET `user_pwd`='post.newpwd' WHERE ( user_id='0' ) [ RunTime:0.0222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010927s ]
+
+[ 2015-07-18T22:30:43+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Personalsetting?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014763s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0110s ]
+SQL: SELECT `user_name`,`user_add`,`user_sex`,`user_sexori`,`user_emotion`,`user_blood`,`user_horoscope`,`user_email`,`user_qq`,`user_interest` FROM `t_user` WHERE ( user_id='1' )  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011268s ]
+
+[ 2015-07-18T22:30:59+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Realinformation?&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000311s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009502s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0104s ]
+SQL: SELECT `user_realname`,`user_sex`,`user_idnumber`,`user_add`,`user_tel`,`user_emcontact1`,`user_emtel1`,`user_emcontact2`,`user_emtel2`,`user_medical` FROM `t_user` WHERE ( user_id='1' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009074s ]
+
+[ 2015-07-18T22:31:13+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Personalsettingsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029659s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012631s ]
+
+[ 2015-07-18T22:31:28+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Realinformationsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013677s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009741s ]
+
+[ 2015-07-18T22:31:35+08:00 ] ::1 /shopingmallweb/Home/Personalsetting/Pwdsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001989s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013025s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0097s ]
+SQL: SELECT `user_pwd` FROM `t_user` WHERE ( user_id='0' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `t_user` SET `user_pwd`='post.newpwd' WHERE ( user_id='0' ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011719s ]
+
