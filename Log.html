@@ -8,29 +8,8 @@
 <link rel="shortcut icon" type="image/x-icon" href="http://cfile4.uf.tistory.com/image/993DB833599965D8166364" />
 </head>
 
-function ResizeFrame(name)
-{
-// IFRAME 내부의 body 개체
-var fBody = document.frames(name).document.body;
-// IFRAME 개체
-var fName = document.all(name);
+<div style="position:relative;width:100%;height:0;padding-bottom:100%">
 
-// IFRAME 내부의 body개체의 넓이를 계산하여 IFRAME의 넓이를 설정해 준다.
-fName.style.width 
-= fBody.scrollWidth + (fBody.offsetWidth - fBody.clientWidth);
-// IFRAME 내부의 body개체의 높이를 계산하여 IFRAME의 높이를 설정해 준다.
-fName.style.height 
-= fBody.scrollHeight + (fBody.offsetHeight - fBody.clientHeight);
+<iframe style="position:absolute;top:0;left:0" width="100%" height="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcLyaHajZK3mBQ8dgwQFCYr_SZKDBpYGhofs4aDdSOs5RcJz2MuuOyK-7g1AO4XbwAk_h1t-YckwzN/pubhtml?amp;single=true&amp;widget=true&amp;headers=false" frameborder="no" scrolling="no"></iframe>
 
-// 만약 IFRAME의 크기 설정에 실패 하였다면 기본크기로 설정한다.
-if (Frame_name.style.height == "0px" || Frame_name.style.width == "0px")
-{
-fName.style.width = "700px"; //기본 iframe 너비
-fName.style.height = "300px"; //기본 iframe 높이
-}
-}
-
-<iframe name="NeBoard" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcLyaHajZK3mBQ8dgwQFCYr_SZKDBpYGhofs4aDdSOs5RcJz2MuuOyK-7g1AO4XbwAk_h1t-YckwzN/pubhtml?&amp;single=true&amp;widget=true&amp;headers=false"
-scrolling="No" onLoad="ResizeFrame('NeBoard');" ></iframe>
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcLyaHajZK3mBQ8dgwQFCYr_SZKDBpYGhofs4aDdSOs5RcJz2MuuOyK-7g1AO4XbwAk_h1t-YckwzN/pubhtml?gid=344753854&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" allowfullscreen></iframe>
+</div>
